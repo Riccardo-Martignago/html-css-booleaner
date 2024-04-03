@@ -1,4 +1,60 @@
-header{
+body {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    margin: 0;
+}
+main, footer, header h1, header p{
+    margin: 7px;
+}
+h1{
+    font-size: 50px;
+}
+.name{
+    color:#40B5E9;
+}
+div.background-header{
+    color: white;
+    font-size: 40px;
     background-image: url(./img/pattern.png);
     background-color: #4EA0FF;
+    height: 180px;   
+}
+p.subscription{
+    font-size: 20px;
+    color: #747474;
+    margin-top: 0px;
+}
+p.description{
+    margin-top: 0%;
+}
+div.container{ 
+    position: relative;
+    color: white;
+}
+div.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 30px;
+    font-weight:bold;
+}
+ul{
+    padding-left: 15px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+}
+tbody tr:nth-child(odd){
+    background-color: #B1E5F2;
+}
+td{
+    padding: 15px 0px 15px 0px;
+}
+thead{
+    background-color: #20A9E5;
+    color: white;
 }
